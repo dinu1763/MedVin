@@ -13,7 +13,7 @@
   <title>MedVin</title>
 
   <!-- Favicon --> 
-  <link rel="icon" href="{% static 'website/img/core-img/favicon.ico' %}">
+  <link rel="icon" href="{% static 'website/img/core-img/fav.ico' %}">
 
   <!-- Core Stylesheet -->
   <link rel="stylesheet" href="{% static 'website/css/style.css' %}">
@@ -192,6 +192,14 @@
                 <div class="col-lg-6">
                   <input type="email" name="message-email" class="form-control mb-30" placeholder="Your Email">
                 </div>
+				
+				<div class="col-lg-6">
+                  <input type="tel" name="message-phone" class="form-control mb-30" placeholder="Your Mobile Number">
+                </div>
+				
+				<div class="col-lg-6">
+                  <input type="date" name="message-date" class="form-control mb-30" placeholder="Pick the Date">
+                </div>
                 
 				<div class="col-md-6">
                   <div class="form-group mb-30">
@@ -222,13 +230,8 @@
                   </div>
                 </div>
 				
-				<div class="col-md-6">
 				
-				<div class="md-form">
-				<input name= "date-picker" placeholder="Selected date" type="text" id="date-picker-example" class="form-control datepicker">
-					
-				</div>
-				</div>
+				
 				 <div class="col-12">
                   <textarea name="message" class="form-control mb-30" placeholder="Your Message"></textarea>
                 </div>

@@ -13,8 +13,11 @@ def home(request):
 		address = request.POST['your-address']
 		schedule = request.POST['your-scheldule']
 		package = request.POST['your-test']
-		date = request.POST['date-picker']
-		text = message + address  + schedule + package + date
+		phone = request.POST['message-phone']
+		date = request.POST['message-date']
+		text = " Name :" + message_name + " \n " + "Date :" +date + " \n " + "Email Address :" + message_email+ " \n " + \
+							"Mobile Number :" + phone + " \n " + "Address :" + address + " \n "  + \
+							"Scheduled On :" +schedule + " \n " + "Package Name :" +package + " \n " + "Message :" + message
 		send_mail(
 			message_name,
 			text,
