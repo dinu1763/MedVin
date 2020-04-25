@@ -81,18 +81,18 @@
               <div class="classynav">
                 <ul id="nav">
                   <li><a href="{% url 'home' %}">Home</a></li>
-                  <li><a href="#">SERVICES</a>
+                  <li><a href="{% url 'service' %}">SERVICES</a>
                     <ul class="dropdown">
                       
-                      <li><a href="#">BLOOD TEST</a></li>
-                      <li><a href="#">URINE TEST</a></li>
-                      <li><a href="#">STOOL TEST</a></li>
+                      <li><a href="{% url 'service' %}">BLOOD TEST</a></li>
+                      <li><a href="{% url 'service' %}">URINE TEST</a></li>
+                      <li><a href="{% url 'service' %}">STOOL TEST</a></li>
                    
                     </ul>
                   </li>
-                  <li><a href="{% url 'home' %}">About</a></li>
+                  <li><a href="{% url 'about' %}">About</a></li>
                  
-                  <li><a href="{% url 'home' %}">Pricing</a></li>
+                  <li><a href="{% url 'pricing' %}">Pricing</a></li>
 
                   <li><a href="./contact.html">Contact</a></li>
                 </ul>
@@ -101,7 +101,7 @@
             </div>
 
             <!-- Booking Now Button -->
-            <a href="#" class="btn dento-btn booking-btn">Book Sample Collection</a>
+            <a href="#appointment-form" class="btn dento-btn booking-btn">Book Sample Collection</a>
           </nav>
         </div>
       </div>
@@ -422,7 +422,7 @@
             <!-- Quick Links Nav -->
             <nav>
               <ul class="quick-links">
-                <li><a href="#">About</a></li>
+                <li><a href="{% url 'about' %}">About</a></li>
                 <li><a href="#">FAQs</a></li>
                 <li><a href="{% url 'contact' %}">Contact</a></li>
                 <li><a href="#">Policy</a></li>

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/jquery-ui.structure.css">
+</head>
+<body>
+    <div class="body__wrap">
+        
+        <div class="body__header">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">MedVin</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse navgation pl-5" id="navbarNavDropdown">
+                  <ul class="navbar-nav">
+                    <li class="nav-item nav__click">
+                      <a class="nav-link navlist" href="index.html">Home</a>
+                    </li>
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="false" aria-expanded="">
+                          Services
+                        </button>
+                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="service.html">Blood test</a>
+                            <a class="dropdown-item" href="service.html">Urine test</a>
+                             <a class="dropdown-item" href="service.html">.....</a>
+                         </div>
+                    </div>
+                    <li class="nav-item nav__click">
+                      <a class="nav-link navlist" href="About.html">About us</a>
+                    </li>
+                 </ul>
+                </div>
+            </nav>
+            <div class="header__contact">
+                <img class="contact__number" src="images/phone-volume-solid.svg" alt=""> 
+                  +91-1111111111
+                <img class="contact__number" src="images/facebook-brands.svg" alt="facebook">
+                <img class="contact__number" src="images/instagram.svg" alt="instagram contact">
+            </div>
+
+        </div>
+        <!-- ***************
+        end of body header section
+        ************** -->
+        <h2 class="about__bannerh2">we are MedVins</h2>
+          
+        <div class="body__banner">
+          <div class="about__banner">
+            <div class="banner__section1">
+              <div class="section1">
+                <img src="" alt="didnt put the image">
+                <h3>300+</h3><span>Trained techincals</span>
+              </div>
+                <div class="section2">
+                  <img src="" alt="didnt put the image">
+                  <h3>500k</h3><span>Lives Touched</span>
+                </div>
+                <div class="section3">
+                  <img src="" alt="didnt put the image">
+                  <h3>5.5Mn</h3><span>Tested Reported</span>
+                </div>
+                <div class="section4">
+                  <img src="" alt="didnt put the image">
+                    <h3>1Mn</h3><span>Health Profile</span>
+                </div>
+            </div>
+            <div class="about__content">
+                MedVin is the India's Greatest helath test @home Service,creating new benchmark for very high quality and best prices.
+                MedVins employes state of art 46 touchpoints technologies for assuring quality
+                collection and testing acroos its tightly controlled netwoked labs and full time employees work here.
+                We MedVin provides best @home test . 
+            </div>
+          </div>  
+           
+        </div>
+<!-- end of banner section -->
+        <div class="body__content">
+          <div class="body__content">
+            <form  action="validation" method="POST" id="formhideshow" class="form__creation" onsubmit="formvalidation()">
+               <p>All the inputs With* are requried</p>
+              <input type="text" class="form__control" required id="name" placeholder="Full name*"><br><br>
+              <div class="form__row">
+                
+                <input type="email" class="form__control" required id="email" placeholder="Email*">
+                <input type="tel" class="form__control" required id="number" placeholder="Contact*">
+              </div><br>
+              <div class="form__row">
+                <select name="test" id="test" class="form__control"><br>
+                  <option value="bloodtest">BloodTest</option>
+                  <option value="urinetest">UrineTest</option>
+                  <option value="sloodtest">SloodTest</option>
+                  <option value="totaltest">TotalTest</option>
+                </select>
+              </div><br>
+              <div class="form__row">
+                <input type="text" class="form__control" required id="datepicker" placeholder="Select date*">
+                <select name="Time" id="time__select">
+                  <option value="10:00am"> 10:00 am</option>
+                  <option value="11:00am"> 11:00 am</option>
+                  <option value="12:00am"> 12:00 am</option>
+                  <option value="1:00pm"> 1:00 pm</option>
+                  <option value="2:00pm"> 2:00 pm</option>
+                  <option value="3:00pm"> 3:00 pm</option>
+                  <option value="4:00pm"> 4:00 pm</option>
+                </select>  
+              </div><br>
+              <input type="text" name="address" class="form__control" id="address" placeholder="Address*" required>
+              <input type="text" name="address1" class="form__control" id="address1" placeholder="Optional Address"><br>
+              <br><input type="text" name="landmark" class="form__control" id="landmark" placeholder="Landmark *">
+              <br><br><input type="submit" value="Book your test now" >
+            </form>
+            <div class="hide__button">
+              <button type="submit" class="btn btn-primary"> Click here to register</button>
+            </div>
+          </div>
+           <div class="card1">   
+              <div class="card_1">
+                <img src="..." alt="...">
+                <div class="card_1body">
+                  <h5 class="card_1title">Founder</h5>
+                </div>
+
+              </div>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor mollitia saepe provident deserunt ea illo voluptas maxime quasi neque, nostrum, eligendi doloremque enim. Eveniet culpa veritatis a odio totam non?<a href="#">for more....</a></p>
+            </div>
+            <div class="card1">   
+              <div class="card_1" >
+                <img src="..." alt="...">
+                <div class="card_1body">
+                  <h5 class="card_1title">CEO</h5>
+                </div>
+
+              </div>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor mollitia saepe provident deserunt ea illo voluptas maxime quasi neque, nostrum, eligendi doloremque enim. Eveniet culpa veritatis a odio totam non?<a href="#">for more....</a></p>
+            </div>
+          <div class="card3">
+            Our Best Team
+            <figure>
+              <img src="" alt="best employee1" class="about__employeeimages">
+              <img src="" alt="best employee1" class="about__employeeimages">
+              <img src="" alt="best employee1" class="about__employeeimages">
+
+            </figure>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, ad, quod vitae aliquam quia, perferendis aspernatur iste saepe in sequi laboriosam est quas illum harum deleniti temporibus provident corporis corrupti.</p>
+          </div>
+        </div>
+        <div class="body__footer">
+          <div class="footer__wrap">
+             <div class="cites">
+              our presence
+              <ul>
+                <li>bengaluru</li>
+                <li>hyderbad</li>
+                <li>mumbai</li>
+              </ul>
+  
+              </div>
+             <div class="popular__test">
+              OUR MOST POPULAR TESTS
+              <ul>
+                <li><a href="bloodtest.html">Blood Test</a></li>
+                <li><a href="urinetest.html">Urine Test</a></li>
+                <li><a href="stooltest.html">stool Test</a></li>
+                <li><a href="totaltest.html">Total Test</a></li>
+                
+              </ul>
+  
+              </div>
+             <div class="footer">
+              <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">aboutus</a></li>
+              </ul>
+             </div>
+             <div class="contactlist">
+              Follow us on
+              <ul>
+                <li><a href=""><img src="" alt="facebooklink"></a></li>
+                <li><a href=""><img src="" alt="twitterlink"></a></li>
+                <li><a href=""><img src="" alt="linkedeinlink"></a></li>
+                <li><a href=""><img src="" alt="instagramlink"></a></li>
+              </ul>
+             </div>
+          </div>
+          
+          
+         </div>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

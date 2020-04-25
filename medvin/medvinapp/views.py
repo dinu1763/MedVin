@@ -22,7 +22,7 @@ def home(request):
 			message_name,
 			text,
 			message_email,
-			['dinu1763@gmail.com'],
+			['selvan1763@gmail.com'],
 			fail_silently=False,
 			)
 		return render(request, 'home.html', {'message_name': message_name})
@@ -41,10 +41,20 @@ def contact(request):
 			message_name,
 			message,
 			message_email,
-			['dinu1763@gmail.com'],
+			['selvan1763@gmail.com'],
 			fail_silently=False,
 			)
 		return render(request, 'contact.html', {'message_name': message_name})
 	else:
 	
 		return render(request, 'contact.html', {})
+		
+def service(request):
+	return render(request, 'service.html', {})
+	
+	
+def about(request):
+	return render(request, 'about.html', {})
+	
+def pricing(request):
+	return render(request, 'pricing.html', {})
