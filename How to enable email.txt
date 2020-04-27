@@ -1,0 +1,8 @@
+Email Sending from Medvin
+
+Backend email should be enabled to less secure apps in google and enable Display unlock captcha
+
+
+https://myaccount.google.com/lesssecureapps
+
+https://accounts.google.com/DisplayUnlockCaptcha

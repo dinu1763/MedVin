@@ -126,7 +126,7 @@ EMAIL_PORT = 587
 EMAIL_HOST_USER = 'selvan1763@gmail.com'
 EMAIL_HOST_PASSWORD = 'Kums1763@!'
 EMAIL_USE_TLS = True
-EMAIL_USE_SSL = False
+
 
 
 
